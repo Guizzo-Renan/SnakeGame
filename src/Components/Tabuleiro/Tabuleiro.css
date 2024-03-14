@@ -1,0 +1,59 @@
+.tabuleiro{
+    outline: 2px solid rgb(134, 154, 189);
+}
+
+.linha{
+    height: 50px;
+}
+
+.celula{
+    width: 50px;
+    height: 50px;
+    /*outline: 1px solid rgb(134, 154, 189);*/
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.cobra-celula{
+    background-color: aquamarine;
+}
+
+.comida-celula{
+    /*background-color: brown; crimson*/
+    background-color: plum;
+}
+
+/*divisao*/
+
+.board {
+    outline: 2px solid rgb(134, 154, 189);
+  }
+  
+  .row {
+    height: 35px;
+  }
+  
+  .cell {
+    width: 35px;
+    height: 35px;
+   /* outline: 1px solid rgb(134, 154, 189);*/
+    display: inline-block;
+  }
+  
+  .cell-green {
+    /*background-color: green;*/
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  
+  .cell-red {
+    /*background-color: red;*/
+    background-color: rgb(250, 110, 133);
+    border-radius: 10px;
+  }
+  
+  .cell-purple {
+    /*background-color: purple;*/
+    background-color: rgb(255, 102, 102);
+    border-radius: 10px;  
+}
